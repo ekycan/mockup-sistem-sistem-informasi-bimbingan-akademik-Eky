@@ -1,1 +1,1 @@
-# mockup-sistem-sistem-informasi-bimbingan-akademik-Eky
+# mockup-Sistem-Informasi-Bimbingan-Akademik-Eky-Candra-Wijaya
