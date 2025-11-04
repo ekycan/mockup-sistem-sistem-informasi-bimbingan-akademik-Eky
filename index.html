@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Preview Mobile Prototype – SIBA (Sistem Bimbingan Akademik)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --bg: #e8f1ff;        /* biru muda background */
+      --card: #ffffff;
+      --border: #d1e4ff;
+      --text: #0f172a;
+      --muted: #5b6b88;
+      --accent: #3b82f6;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 20px;
+      background: var(--bg);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: var(--text);
+    }
+    h1 {
+      font-size: 18px;
+      margin-bottom: 4px;
+      text-align: center;
+    }
+    .byline {
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+    .tagline {
+      text-align: center;
+      font-size: 12px;
+      color: var(--accent);
+      font-weight: 500;
+      margin-bottom: 14px;
+    }
+    .wrap {
+      max-width: 420px; /* biar kerasa mobile */
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .screen {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(14, 36, 69, 0.06);
+    }
+    .label {
+      padding: 10px 14px 6px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #0f172a;
+      background: rgba(59, 130, 246, 0.06);
+      border-bottom: 1px solid rgba(209, 228, 255, 0.7);
+    }
+    .subtitle {
+      font-weight: 400;
+      color: #6b7280;
+      font-size: 11px;
+      margin-left: 4px;
+    }
+    .screen img {
+      width: 100%;
+      display: block;
+    }
+    footer {
+      text-align: center;
+      font-size: 11px;
+      color: #7a8aa7;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Preview Mobile Prototype – SIBA</h1>
+  <p class="byline">Desain oleh: <strong>Eky Candra Wijaya</strong></p>
+  <p class="tagline">Sistem Bimbingan Akademik (User: Mahasiswa)</p>
+
+  <div class="wrap">
+    <div class="screen">
+      <div class="label">01 – Landing Page <span class="subtitle">(Mahasiswa)</span></div>
+      <img src="LandingPage.jpg" alt="Landing Page Mahasiswa">
+    </div>
+    <div class="screen">
+      <div class="label">02 – Login Mahasiswa</div>
+      <img src="LoginPage.jpg" alt="Login Mahasiswa">
+    </div>
+    <div class="screen">
+      <div class="label">03 – Form Input / Mahasiswa Mengetik</div>
+      <img src="mengetikpage.jpg" alt="Mahasiswa Mengetik">
+    </div>
+    <div class="screen">
+      <div class="label">04 – Daftar Mahasiswa</div>
+      <img src="daftarpage.jpg" alt="Daftar Mahasiswa">
+    </div>
+    <div class="screen">
+      <div class="label">05 – Login Berhasil</div>
+      <img src="berhasillogin.jpg" alt="Login Berhasil">
+    </div>
+    <div class="screen">
+      <div class="label">06 – Dashboard Mahasiswa</div>
+      <img src="Dashboardpage.jpg" alt="Dashboard Mahasiswa">
+    </div>
+    <div class="screen">
+      <div class="label">07 – Pilih Tanggal Jadwal</div>
+      <img src="Tanggalpage.jpg" alt="Tanggal Jadwal Page">
+    </div>
+    <div class="screen">
+      <div class="label">08 – Buat Jadwal Bimbingan Baru</div>
+      <img src="buatjadwal.jpg" alt="Buat Jadwal">
+    </div>
+    <div class="screen">
+      <div class="label">09 – Notifikasi</div>
+      <img src="Notifikasi.jpg" alt="Notifikasi Page">
+    </div>
+    <div class="screen">
+      <div class="label">10 – Kotak Pesan dari Pembimbing</div>
+      <img src="pesandaripembimbing.jpg" alt="Pesan dari pembimbing">
+    </div>
+  </div>
+
+  <footer>© 2025 Sistem Bimbingan Akademik (SIBA)</footer>
+</body>
+</html>
